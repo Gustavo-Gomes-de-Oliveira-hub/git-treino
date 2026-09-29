@@ -1,0 +1,63 @@
+
+@import url('https://fonts.cdnfonts.com/css/generator-rex');
+
+/*FONTE DE TESTE DE H1*/
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(0, 100, 0);
+}
+
+/*Psseuclasse é uma palavra chave adicionada ao seletor que define*/
+
+/*HOVER significa SOBRE*/
+h1:hover {
+    color:beige; 
+    background-color:rgb(56, 42, 177);
+    font-family:'Generator REX', sans-serif;
+    font-size: 30px;
+    text-align:center;
+    height: 400px;
+
+}
+ /*ACTIVE - Acontece quando o "elemento" está ativo ou clicado*/
+
+ h2{
+    color:crimson;
+    background-color:blue;
+ }
+ h2:active{
+    color:white;
+    background-color: darkolivegreen;
+ }
+
+ #ultimateecoeco{
+    width: 100%;
+    height: 400px;
+    background-color:fuchsia;
+ }
+.ecoeco{
+    width:200px;
+    height: 300px;
+    margin: 30px;
+    background-color:darkolivegreen;
+    display: inline-block;
+    margin-left: 160px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.ecoeco:hover{
+    background-color:chocolate;
+    color:olive;
+    font-family:'Generator REX', sans-serif;
+    font-size: 30px;
+    font-weight: 30px;
+    transform: rotateY(1000rad);
+    transition: 29s;
+}
